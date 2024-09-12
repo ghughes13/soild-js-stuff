@@ -1,0 +1,48 @@
+.thumbs-up-icon-container {
+  background: #fafafa;
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  transition-duration: 0.25s;
+}
+
+.thumbs-up-icon-container svg {
+  height: 50px;
+  width: 50px;
+}
+
+.card-container {
+  background-color: #282c34;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  transition-duration: 0.25s;
+}
+
+.card-container:hover {
+  background-color: #282c99;
+}
+
+.card-container:hover .thumbs-up-icon-container {
+  background: #0ab126;
+}
+
+.card-info {
+  background: #fafafa;
+  border-radius: 5px;
+}
+
+.card-info img {
+  margin-bottom: -3px;
+  border-radius: 0 0 4px 4px;
+  width: 250px;
+  object-fit: cover;
+}
